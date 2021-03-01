@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+  <title>SoulHome - Каталог</title>
+  <style>
+      html 
+      { 
+          overflow-x: hidden; 
+      }
+      
+      BODY.body_come
+      {
+          opacity: 0;
+          transition: 1s; /*Скорость перехода состояния элемента*/
+          animation: show 1.3s 1; /* Указываем название анимации, её время и количество повторов*/
+          animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+          animation-delay: 0.1s; /* Задержка перед началом */
+      }
+      @keyframes show {0%{opacity:0;}100% {opacity:1;}}
+      
+      a.link
+      {
+          text-decoration: none;
+          color: black;
+          opacity: 1;
+          transition: opacity 0.2s linear;
+      }
+      .link:hover 
+      {
+          text-decoration: none;
+          opacity: 0.5;
+      }
+      
+      DIV.box
+      {
+          position: absolute;
+          width: 270px; /* Ширина слоя */
+          padding: 10px; /* Поля вокруг текста */
+          border: 1px solid black; /* Параметры границы */
+          background: white; /* Цвет фона */
+          top: 440px;
+          left: 589px;
+          transition: background 0.4s linear;
+      }
+      .box:hover 
+      {
+          background: black;
+          color: white;
+      }
+      
+  </style>
+</head>
+
+<body class="body_come"> 
+<p style="position: absolute;
+          word-spacing: 40px;
+          top: 0;
+          left: 300px;">
+    <font size ="4", face = "Garamond">
+    <a class="link", href="index.html"> Главная</a>
+    <a class="link", href="index_catalog.html"> Каталог</a>
+    <font size ="7", face = "Garamond"> SoulHome</font>
+    </font>
+</p>
+
+<p style="position: absolute;
+          word-spacing: 40px;
+          top: 23px;
+          left: 750px;">
+    <font size ="4", face = "Garamond">
+    Доставка
+    Контакты
+    </font>
+</p>
+
+<hr noshade, size = "1", style="position: absolute; top: 70px; left: 0px; width: 1800px;">
+
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82%D0%BD%D0%B0%D1%8F3.jpg" width="400" height="475" style="position: absolute; top: 140px; left:141px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D1%80%D0%B5%D0%BB%D0%BA%D0%B02.jpeg" width="84" height="113" style="position: absolute; top: 140px; left: 41px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.jpeg" width="84" height="113" style="position: absolute; top: 270px; left: 41px">
+
+<p style= "position: absolute; top: 85px; left: 40px; line-height: 1.2em;">
+    <font size ="3", face = "Garamond">
+    <a class="link", href="index.html"> Главная </a> /
+    <a class="link", href="index_catalog.html"> Все товары</a>
+    </font>
+</p>
+
+<h1 style="position: absolute; font-weight: 300; color: black; left: 597px; top: 146px"><font face = "Garamond"> Десертная тарелка</font> </h1>
+
+<h1 style="position: absolute; font-weight: 300; color: black; left: 950px; top: 146px"><font face = "Garamond"> ~ 690 руб</font> </h1>
+
+<p style= "position: absolute; top: 220px; left: 597px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    Тарелка из глазурированного фарфора.
+    <br>
+    <br>
+    <ul style= "position: absolute; top: 252px; left: 587px; line-height: 1.8em;">
+        <li>Высота тарелки 1 см</li>
+        <li>Диаметр 20 см</li>
+        <li>Вес около 300 граммов</li>
+        <li>Mожно мыть в посудомоечной машине и использовать в<br>микроволновой печи
+</li>
+    </ul>
+
+    </font>
+</p>
+
+
+<div align="center", class="box">
+    <font size ="4", face = "Garamond">
+    Добавить в корзину
+    </font>
+</div>
+
+<p style= "position: absolute; top: 540px; left: 589px; line-height: 1.2em;">
+    <font size ="5", face = "Garamond">
+    Дополни набор:
+    </font>
+</p>
+
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D0%B2%D0%B8%D0%BB%D0%BA%D0%B8.jpg" width="180" height="240" style="position: absolute; top: 600px; left: 589px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D1%81%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D1%82%D1%8C_%D0%B4%D0%B5%D1%81.jfif" width="160" height="240" style="position: absolute; top: 600px; left: 804px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D0%BD%D0%BE%D0%B6%D0%B8.jpg" width="180" height="240" style="position: absolute; top: 600px; left: 999px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D0%B4%D0%B5%D1%81_%D1%81%D1%82%D0%B0%D0%BA%D0%B0%D0%BD.jpg" width="194" height="240" style="position: absolute; top: 600px; left: 1214px">
+
+<hr noshade, size = "1", style="position: absolute; top: 920px; left: 0px; width: 1800px;">
+
+<p style= "position: absolute; top: 940px; left: 499px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    © SoulHome · Все права защищены
+    </font>
+</p>
+
+
+<hr noshade, size = "1", style="position: absolute; top: 991px; left: 0px; width: 1800px;">
+
+</body>
+
+
+</html>
