@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+  <title>SoulHome</title>
+  <style>
+      html 
+      { 
+          overflow-x: hidden; 
+      }
+      
+      BODY.body_come 
+      {
+          opacity: 0;
+          transition: 1s; /*Скорость перехода состояния элемента*/
+          animation: show 1.3s 1; /* Указываем название анимации, её время и количество повторов*/
+          animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+          animation-delay: 0s; /* Задержка перед началом */
+      }
+      @keyframes show {0%{opacity:0;}100% {opacity:1;}}
+      
+      a.link
+      {
+          text-decoration: none;
+          color: black;
+          opacity: 1;
+          transition: opacity 0.2s linear;
+      }
+      .link:hover 
+      {
+          text-decoration: none;
+          opacity: 0.5;
+      }
+
+  </style>
+</head>
+
+<body class="body_come"> 
+<p style="position: absolute;
+          word-spacing: 40px;
+          top: 0;
+          left: 300px;">
+    <font size ="4", face = "Garamond">
+    <a class="link", href="index.html"> Главная</a>
+    <a class="link", href="index_catalog.html"> Каталог</a>
+    <font size ="7", face = "Garamond"> SoulHome</font>
+    </font>
+</p>
+
+<p style="position: absolute;
+          word-spacing: 40px;
+          top: 23px;
+          left: 750px;">
+    <font size ="4", face = "Garamond">
+    Доставка
+    Контакты
+    </font>
+</p>
+
+<hr noshade, size = "1", style="position: absolute; top: 70px; left: 0px; width: 1800px;">
+
+
+<p style="position: absolute;
+          top: 400px;
+          left: 90px;
+          line-height: 1.0em;
+          width: 45%;
+          font-size: 30px">
+    <font face = "Palatino Linotype">  Вдохновение — это<br/> все, что тебя окружает </font>
+</p>
+
+<hr noshade, size = "1", style="position: absolute; left: 0; top: 30px, width: 100%">
+
+
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/cup.jpg" width="400" height="400" style="position: absolute; top: 130px; left: 530px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/serv.jpg" width="400" height="400" style="position: absolute; top: 130px; left: 950px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/serv2.jpg" width="400" height="400" style="position: absolute; top: 130px; left: -360px">
+
+<hr noshade, size = "1", style="position: absolute; top: 700px; left: 0px; width: 1800px;">
+
+<p style= "position: absolute; top: 720px; left: 499px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    © SoulHome · Все права защищены
+    </font>
+</p>
+
+<hr noshade, size = "1", style="position: absolute; top: 771px; left: 0px; width: 1800px;">
+
+</body>
+
+
+</html>
