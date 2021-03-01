@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+  <title>SoulHome - Каталог</title>
+  <style>
+      html 
+      { 
+          overflow-x: hidden; 
+      }
+      
+      BODY.body_come
+      {
+          opacity: 0;
+          transition: 1s; /*Скорость перехода состояния элемента*/
+          animation: show 1.3s 1; /* Указываем название анимации, её время и количество повторов*/
+          animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+          animation-delay: 0.1s; /* Задержка перед началом */
+      }
+      @keyframes show {0%{opacity:0;}100% {opacity:1;}}
+      
+      a.link
+      {
+          text-decoration: none;
+          color: black;
+          opacity: 1;
+          transition: opacity 0.2s linear;
+      }
+      .link:hover 
+      {
+          text-decoration: none;
+          opacity: 0.5;
+      }
+      
+      DIV.box
+      {
+          position: absolute;
+          width: 155px; /* Ширина слоя */
+          padding: 10px; /* Поля вокруг текста */
+          border: 1px solid black; /* Параметры границы */
+          background: white; /* Цвет фона */
+          top: 1550px;
+          left: 535px;
+          transition: background 0.4s linear;
+      }
+      .box:hover 
+      {
+          background: black;
+          color: white;
+      }
+      
+  </style>
+</head>
+
+<body class="body_come"> 
+<p style="position: absolute;
+          word-spacing: 40px;
+          top: 0;
+          left: 300px;">
+    <font size ="4", face = "Garamond">
+    <a class="link", href="index.html"> Главная</a>
+    <a class="link", href="index_catalog.html"> Каталог</a>
+    <font size ="7", face = "Garamond"> SoulHome</font>
+    </font>
+</p>
+
+<p style="position: absolute;
+          word-spacing: 40px;
+          top: 23px;
+          left: 750px;">
+    <font size ="4", face = "Garamond">
+    Доставка
+    Контакты
+    </font>
+</p>
+
+<hr noshade, size = "1", style="position: absolute; top: 70px; left: 0px; width: 1800px;">
+
+<h1 align = "left", style="position: absolute; font-weight: 300; color: black; left: 42px; top: 78px"><font face = "Garamond"> ~ Все товары</font> </h1>
+
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/1242000990_7_1_2.jpg" width="585" height="370" style="position: absolute; top: 159px; left: 42px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.jpeg" width="280" height="370" style="position: absolute; top: 159px; left: 652px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/pin_glass.jpg" width="280" height="370" style="position: absolute; top: 159px; left: 962px">
+
+<p style= "position: absolute; top: 523px; left: 42px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    Стеклянная посуда с рельефным узором<br>3400 руб
+    </font>
+</p>
+
+<p style= "position: absolute; top: 523px; left: 652px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+        <a class="link", href="index_dessert_plate_690.html">
+            Десертная тарелка<br>690 руб
+        </a>
+    </font>
+</p>
+
+<p style= "position: absolute; top: 523px; left: 962px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    Набор стеклянных стаканов<br>1400 руб
+    </font>
+</p>
+
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/hm_farfor.jfif" width="280" height="370" style="position: absolute; top: 624px; left: 42px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D1%81%D1%82%D0%BE%D0%BB%D0%BE%D0%B2%D1%8B%D0%B52.jpg" width="280" height="370" style="position: absolute; top: 624px; left: 347px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/pin_glass2.jpg" width="280" height="370" style="position: absolute; top: 624px; left: 652px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D1%81%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D1%82%D1%8C.jfif" width="280" height="370" style="position: absolute; top: 624px; left: 962px">
+
+<p style= "position: absolute; top: 988px; left: 42px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    Керамический набор<br>4700 руб
+    </font>
+</p>
+
+<p style= "position: absolute; top: 988px; left: 347px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    Набор столовых приборов<br>1800 руб
+    </font>
+</p>
+
+<p style= "position: absolute; top: 988px; left: 652px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    Тарелка “Весенний звон”<br>700 руб
+    </font>
+</p>
+
+<p style= "position: absolute; top: 988px; left: 962px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    Скатерть из льна<br>1400 руб
+    </font>
+</p>
+
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D1%81%D1%82%D0%B0%D0%BA%D0%B0%D0%BD_%D0%B7%D0%B0%D1%80%D0%B0.jpg" width="280" height="370" style="position: absolute; top: 1089px; left: 42px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D1%81%D0%BE%D1%81%D1%82%D0%B0%D1%80%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%B5%D1%80%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0.jpg" width="585" height="370" style="position: absolute; top: 1089px; left: 347px">
+<img src="%D0%A4%D0%BE%D1%82%D0%BE/%D0%BA%D0%B0%D0%BF%D0%BB%D0%B8.jpg" width="280" height="370" style="position: absolute; top: 1089px; left: 962px">
+
+<p style= "position: absolute; top: 1453px; left: 42px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    Граненный стакан из акрила<br>700 руб
+    </font>
+</p>
+
+<p style= "position: absolute; top: 1453px; left: 347px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    Посуда из искусственно состаренной керамики с узором<br>от 1000 до 4900 руб
+    </font>
+</p>
+
+<p style= "position: absolute; top: 1453px; left: 962px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    Бокал с узором “капли”<br>1000 руб
+    </font>
+</p>
+
+<div align="center", class="box">
+    <font size ="4", face = "Garamond">
+    Загрузить еще
+    </font>
+</div>
+
+<hr noshade, size = "1", style="position: absolute; top: 1630px; left: 0px; width: 1800px;">
+
+<p style= "position: absolute; top: 1650px; left: 499px; line-height: 1.2em;">
+    <font size ="4", face = "Garamond">
+    © SoulHome · Все права защищены
+    </font>
+</p>
+
+<hr noshade, size = "1", style="position: absolute; top: 1701px; left: 0px; width: 1800px;">
+
+</body>
+
+
+</html>
